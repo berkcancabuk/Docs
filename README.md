@@ -1,6 +1,6 @@
 # ALL DOCS
 
-**[1. Streaming Assets Bundle](https://github.com/berkcancabuk/Docs/edit/main/README.md#streaming-assets-bundle)**
+**[1. Streaming Assets Bundle](https://github.com/berkcancabuk/Docs#streaming-assets-bundle)**
 
 ## Streaming Assets Bundle
 
