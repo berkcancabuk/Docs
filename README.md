@@ -1,10 +1,6 @@
 # ALL DOCS
 
-**[1. Streaming Assets Bundle](https://github.com/berkcancabuk/Docs/tree/StreamingAssetsBundle#readme)**
-
-1. [Streaming Assets Bundle](https://github.com/berkcancabuk/Docs/tree/StreamingAssetsBundle#readme)
-   - Streaming alt başlık
-     - alt başlık 2 
+**[1. Streaming Assets Bundle](https://github.com/berkcancabuk/Docs/edit/main/README.md#streaming-assets-bundle)**
 
 ## Streaming Assets Bundle
 
@@ -29,6 +25,3 @@ Unity assets klasörü içinde Editor adında bir dosya oluşturup bunun içinde
 
 **6) `UNUTMAYIN LİSTE YÖNTEMİ İLE YAPTIĞIMIZ İÇİN VERSİON NUMARASI VE BUNDLE İSMİNİ GİRMENİZ GEREKİYOR.
 ContentController adında bir script oluşturup` [ContentController](https://github.com/berkcancabuk/AssetsBundleStreaming/blob/main/ContentController.cs) `kod satırlarını girmeniz gerekiyor. Bu script içerikleri denetleyip yüklenen objenin ismini yazdırıyor. Script içindeki LoadContent() fonksiyonunu bir buton veya starta koyarak çalıştırabiliriz.`**
-
-
-##Heading 2 link [Streaming Assets Bundle](https://github.com/berkcancabuk/Docs "Streaming Assets Bundle")
