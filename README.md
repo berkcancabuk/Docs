@@ -20,5 +20,5 @@ Unity assets klasörü içinde Editor adında bir dosya oluşturup bunun içinde
 **5) `Attığımız dosyaları nasıl çekeriz? Atılan dosyaları yeni bir API adlı script oluşturarak bu scriptin içine`[APIScript](https://github.com/berkcancabuk/AssetsBundleStreaming/blob/main/API.cs) `verilen kodları ekliyoruz yanda açıklamaları yazmaktadır`**
 
 **6) `UNUTMAYIN LİSTE YÖNTEMİ İLE YAPTIĞIMIZ İÇİN VERSİON NUMARASI VE BUNDLE İSMİNİ GİRMENİZ GEREKİYOR.
-ContentController adında bir script oluşturup` [ContentController](https://github.com/berkcancabuk/AssetsBundleStreaming/blob/main/ContentController.cs) `kod satırlarını girmeniz gerekiyor. Bu scrtip içerikleri denetleyip yüklenen objenin ismini yazdırıyor. Script içindeki LoadContent() fonksiyonunu bir buton veya starta koyarak çalıştırabiliriz.`**
+ContentController adında bir script oluşturup` [ContentController](https://github.com/berkcancabuk/AssetsBundleStreaming/blob/main/ContentController.cs) `kod satırlarını girmeniz gerekiyor. Bu script içerikleri denetleyip yüklenen objenin ismini yazdırıyor. Script içindeki LoadContent() fonksiyonunu bir buton veya starta koyarak çalıştırabiliriz.`**
 
