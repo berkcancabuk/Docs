@@ -7,13 +7,13 @@
     - [Atılan Dosyaları Nasıl İndirebiliriz](https://github.com/berkcancabuk/Docs#4-att%C4%B1%C4%9F%C4%B1m%C4%B1z-dosyalar%C4%B1-nas%C4%B1l-%C3%A7ekeriz-at%C4%B1lan-dosyalar%C4%B1-yeni-bir-api-adl%C4%B1-script-olu%C5%9Fturarak-bu-scriptin-i%C3%A7ineapiscript-verilen-kodlar%C4%B1-ekliyoruz-yanda-a%C3%A7%C4%B1klamalar%C4%B1-yazmaktad%C4%B1r)
     - [Denetleyici Nasıl Oluşturulur Ve Nasıl İndirme Başlatılır](https://github.com/berkcancabuk/Docs#5-unutmayin-li%CC%87ste-y%C3%B6ntemi%CC%87-i%CC%87le-yapti%C4%9Fimiz-i%CC%87%C3%A7i%CC%87n-versi%CC%87on-numarasi-ve-bundle-i%CC%87smi%CC%87ni%CC%87-gi%CC%87rmeni%CC%87z-gereki%CC%87yor-contentcontroller-ad%C4%B1nda-bir-script-olu%C5%9Fturup-contentcontroller-kod-sat%C4%B1rlar%C4%B1n%C4%B1-girmeniz-gerekiyor-bu-script-i%C3%A7erikleri-denetleyip-y%C3%BCklenen-objenin-ismini-yazd%C4%B1r%C4%B1yor-script-i%C3%A7indeki-loadcontent-fonksiyonunu-bir-buton-veya-starta-koyarak-%C3%A7al%C4%B1%C5%9Ft%C4%B1rabiliriz)
 2. **[In-Game Recording](https://github.com/berkcancabuk/Docs/blob/main/README.md#in-game-recording)**
-    - [Recorder Package Ekleme](https://github.com/berkcancabuk/Docs#1-i%CC%87lk-ba%C5%9Fta-unity-de-window-sekmesinin-alt%C4%B1nda-package-manager-e-girip-recorder-paketini-indirip-import-ediyoruz-) 
-    - [Scripti oluşturma](https://github.com/berkcancabuk/Docs#2-bir-adet-script-olu%C5%9Fturup-scriptin-i%C3%A7ine-ingamerecord-kodun-i%C3%A7inde-nerenin-ne-i%C5%9Fe-yarad%C4%B1%C4%9F%C4%B1-hakk%C4%B1nda-bilgiler-mevcut)
-    - [Oluşturulan Scripti Nerede Kullanacağız](https://github.com/berkcancabuk/Docs#3-bu-scripti-main-camera-n%C4%B1n-alt%C4%B1na-at%C4%B1yoruz-ard%C4%B1ndan-main-camera-alt%C4%B1na-component-olarak-video-player-ekliyoruz-ve-scripti-att%C4%B1%C4%9F%C4%B1m%C4%B1z-yerde-video-playeri-tan%C4%B1mlamak-i%C3%A7in-main-cameray%C4%B1-hierarchy-den-s%C3%BCr%C3%BCkl%C3%BCyoruz-)
-    - [Render Texture Oluşturma](https://github.com/berkcancabuk/Docs#4projectin-alt%C4%B1na-sa%C4%9F-t%C4%B1klay%C4%B1p-render-texture-yi-se%C3%A7iyoruz-se%C3%A7tikten-sonra-size-olarak-1920-1080-veriyoruz)
+    - [GetSocialCapture Klasörünü Ekleme](https://github.com/berkcancabuk/Docs#1-i%CC%87lk-ba%C5%9Fta-unity-de-window-sekmesinin-alt%C4%B1nda-package-manager-e-girip-recorder-paketini-indirip-import-ediyoruz-) 
+    - [GetSocialCapture Scriptini Ekleme](https://github.com/berkcancabuk/Docs#2-bir-adet-script-olu%C5%9Fturup-scriptin-i%C3%A7ine-ingamerecord-kodun-i%C3%A7inde-nerenin-ne-i%C5%9Fe-yarad%C4%B1%C4%9F%C4%B1-hakk%C4%B1nda-bilgiler-mevcut)
+    - [GetSocialCapturePreview Scriptini Ekleme](https://github.com/berkcancabuk/Docs#3-bu-scripti-main-camera-n%C4%B1n-alt%C4%B1na-at%C4%B1yoruz-ard%C4%B1ndan-main-camera-alt%C4%B1na-component-olarak-video-player-ekliyoruz-ve-scripti-att%C4%B1%C4%9F%C4%B1m%C4%B1z-yerde-video-playeri-tan%C4%B1mlamak-i%C3%A7in-main-cameray%C4%B1-hierarchy-den-s%C3%BCr%C3%BCkl%C3%BCyoruz-)
+    - [GetSocialCapture Scriptinin Özellikleri](https://github.com/berkcancabuk/Docs#4projectin-alt%C4%B1na-sa%C4%9F-t%C4%B1klay%C4%B1p-render-texture-yi-se%C3%A7iyoruz-se%C3%A7tikten-sonra-size-olarak-1920-1080-veriyoruz)
     - [Canvasta Yapılacaklar](https://github.com/berkcancabuk/Docs#5-canvas-a%C3%A7%C4%B1p-alt%C4%B1na-bir-buton-bir-rawimage-ekliyoruz-sonras%C4%B1nda-butonun-alt%C4%B1nda-on-click-yazan-yere-main-cameran%C4%B1n-%C3%BCzerinde-bulunan-scripti-tan%C4%B1ml%C4%B1yoruz-rawimage-de-ise-yeni-olu%C5%9Fturdu%C4%9Fumuz-render-texture-yi-tan%C4%B1ml%C4%B1yoruz-)
-    - [VideoPlayer Kısmı](https://github.com/berkcancabuk/Docs#6-main-camera-%C3%BCzerine-gelerek-video-player-alt%C4%B1nda-render-mode-yi-render-texture-ye-al%C4%B1yoruz-ve-alt%C4%B1na-bizim-yeni-olu%C5%9Fturdu%C4%9Fumuz-render-textureyi-veriyoruz)
-    - [Son](https://github.com/berkcancabuk/Docs#7-oyunu-ba%C5%9Flat%C4%B1p-buton-%C3%BCzerine-t%C4%B1klad%C4%B1%C4%9F%C4%B1m%C4%B1zda-hem-video-klibimizi-%C3%A7ekicektir-hemde-videoyu-belirledi%C4%9Fimiz-rawimage-k%C4%B1sm%C4%B1nda-oynatacakt%C4%B1r-rawimage-boyutunu-istedi%C4%9Finiz-%C5%9Fekilde-ayarlayabilirsiniz)
+    - [Butonlara Script Atama İşlemi](https://github.com/berkcancabuk/Docs#6-main-camera-%C3%BCzerine-gelerek-video-player-alt%C4%B1nda-render-mode-yi-render-texture-ye-al%C4%B1yoruz-ve-alt%C4%B1na-bizim-yeni-olu%C5%9Fturdu%C4%9Fumuz-render-textureyi-veriyoruz)
+    - [İnternette Belirlenen Url Üzerine Upload Yapma](https://github.com/berkcancabuk/Docs#7-oyunu-ba%C5%9Flat%C4%B1p-buton-%C3%BCzerine-t%C4%B1klad%C4%B1%C4%9F%C4%B1m%C4%B1zda-hem-video-klibimizi-%C3%A7ekicektir-hemde-videoyu-belirledi%C4%9Fimiz-rawimage-k%C4%B1sm%C4%B1nda-oynatacakt%C4%B1r-rawimage-boyutunu-istedi%C4%9Finiz-%C5%9Fekilde-ayarlayabilirsiniz)
 ## Streaming Assets Bundle
 
 ### **1.`İlk başta Unity içinde tutmak istemediğiniz dosyaları prefab haline getirmeliyiz. Prefab yaptığımız dosyanın üzerine gelip Inspector penceresinin en alt kısmında AssetBundle olarak bulunan kısımda tıklayarak prefab objenin assetbundle ismini vermeliyiz.`**
@@ -38,7 +38,7 @@
 
 ## In-Game Recording
 
-### **1) `Assets/GetSocialCapture Klasörünü projenize kopyalayın.` [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/tree/main/Assets/GetSocialCapture) **
+### **1) `Assets/GetSocialCapture Klasörünü projenize kopyalayın.`** [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/tree/main/Assets/GetSocialCapture)
 
 ### **2) `GetSocialCapture scriptini oyun bileşenlerinizden herhangi birine script dosyası olarak ekleyin ekleyin. GetSocialCapture Ana Kamera'nın işlenmiş içeriğini kaydeder.`** [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/Assets/GetSocialCapture/Scripts/GetSocialCapture.cs)
 ![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/5.png)
