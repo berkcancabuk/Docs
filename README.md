@@ -53,4 +53,5 @@
 ![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/2.png)
 ### **6) `İlk butona main camera üzerindeki GetSocialCapture içindeki RecordAction fonksiyonunu veriyoruz. İkinci butona ActionFinished veriyoruz. Üçüncü butona ise  ActionFinished2 yi veriyoruz. Sırası ile ilk buton kamera kaydını başlatır. İkinci buton kamera kaydını bitirir. Üçüncü buton RawImage üstünde kaydedilen gifi gösterir.`**
 
-### **7) ``**
+### **7) `İşlemimiz bittikten sonra en sondaki işlem olarak internete upload etme işlemi başlayacaktır. Resource klasörünün altında vid adlı dosyanın içine kaydolan gif dosyamızı bulup internette bizim verdiğimiz url adresine yükleyecektir.`**
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/6.png)
