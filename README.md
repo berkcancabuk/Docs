@@ -41,14 +41,16 @@
 ### **1) `Assets/GetSocialCapture Klasörünü projenize kopyalayın.` [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/tree/main/Assets/GetSocialCapture) **
 
 ### **2) `GetSocialCapture scriptini oyun bileşenlerinizden herhangi birine script dosyası olarak ekleyin ekleyin. GetSocialCapture Ana Kamera'nın işlenmiş içeriğini kaydeder.`** [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/Assets/GetSocialCapture/Scripts/GetSocialCapture.cs)
-
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/5.png)
 ### **3) `Kaydedilen içeriğin bir önizlemesini göstermek istiyorsanız GetSocialCapturePreview scriptini canvastan rawImage oluşturarak bu script dosyasını içine ekleyin` ** [GetSocialCapturePreview](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/Assets/GetSocialCapture/Scripts/GetSocialCapturePreview.cs)
-
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/1.png)
 
 ### **4)`GetSocialCapture scriptinin altındaki captureFrameRate- Saniyede yakalanan kare sayısı, MaxCapturedFrames- Maks. oturum sırasında yakalanan kare sayısını, PlaybackFrameRate- Saniyede görüntülenen kare sayısı, loopPlayback- Oluşturulan gif döngülerini sürekli oynatmaya yarar.`**
 
 ### **5) `Canvas açıp altına bir 3 adet buton ekliyoruz. Sonrasında butonun altında On Click yazan yere main cameranın üzerinde bulunan scripti tanımlıyoruz.` **
-
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/3.png)
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/4.png)
+![alt text](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/2.png)
 ### **6) `İlk butona main camera üzerindeki GetSocialCapture içindeki RecordAction fonksiyonunu veriyoruz. İkinci butona ActionFinished veriyoruz. Üçüncü butona ise  ActionFinished2 yi veriyoruz. Sırası ile ilk buton kamera kaydını başlatır. İkinci buton kamera kaydını bitirir. Üçüncü buton RawImage üstünde kaydedilen gifi gösterir.`**
 
 ### **7) ``**
