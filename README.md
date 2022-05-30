@@ -38,23 +38,17 @@
 
 ## In-Game Recording
 
-### **1) `İlk başta Unity de window sekmesinin altında Package Manager e girip Recorder paketini indirip Import ediyoruz.` **
+### **1) `Assets/GetSocialCapture Klasörünü projenize kopyalayın.` [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/tree/main/Assets/GetSocialCapture) **
 
-![alt text](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/1.png)
+### **2) `GetSocialCapture scriptini oyun bileşenlerinizden herhangi birine script dosyası olarak ekleyin ekleyin. GetSocialCapture Ana Kamera'nın işlenmiş içeriğini kaydeder.`** [GetSocialCapture](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/Assets/GetSocialCapture/Scripts/GetSocialCapture.cs)
 
-### **2) `Bir adet script oluşturup scriptin içine `[InGameRecord](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/Assets/Scripts/RecorderRunTime.cs) `kodun içinde nerenin ne işe yaradığı hakkında bilgiler mevcut.`**
+### **3) `Kaydedilen içeriğin bir önizlemesini göstermek istiyorsanız GetSocialCapturePreview scriptini canvastan rawImage oluşturarak bu script dosyasını içine ekleyin` ** [GetSocialCapturePreview](https://github.com/berkcancabuk/In-Game-Recording-Gif/blob/main/Assets/GetSocialCapture/Scripts/GetSocialCapturePreview.cs)
 
-### **3) `Bu scripti Main Camera nın altına atıyoruz. Ardından main camera altına component olarak Video Player ekliyoruz ve scripti attığımız yerde video playeri tanımlamak için main camerayı hierarchy den sürüklüyoruz.` **
 
-![alt text](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/2.png)
+### **4)`GetSocialCapture scriptinin altındaki captureFrameRate- Saniyede yakalanan kare sayısı, MaxCapturedFrames- Maks. oturum sırasında yakalanan kare sayısını, PlaybackFrameRate- Saniyede görüntülenen kare sayısı, loopPlayback- Oluşturulan gif döngülerini sürekli oynatmaya yarar.`**
 
-### **4)`Projectin altına sağ tıklayıp render texture yi seçiyoruz. Seçtikten sonra size olarak 1920 1080 veriyoruz`**
-![alt text](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/3.png)
+### **5) `Canvas açıp altına bir 3 adet buton ekliyoruz. Sonrasında butonun altında On Click yazan yere main cameranın üzerinde bulunan scripti tanımlıyoruz.` **
 
-### **5) `Canvas açıp altına bir buton bir rawImage ekliyoruz. Sonrasında butonun altında On Click yazan yere main cameranın üzerinde bulunan scripti tanımlıyoruz. RawImage de ise yeni oluşturduğumuz Render texture yi tanımlıyoruz.` **
-![alt text](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/4.png)
+### **6) `İlk butona main camera üzerindeki GetSocialCapture içindeki RecordAction fonksiyonunu veriyoruz. İkinci butona ActionFinished veriyoruz. Üçüncü butona ise  ActionFinished2 yi veriyoruz. Sırası ile ilk buton kamera kaydını başlatır. İkinci buton kamera kaydını bitirir. Üçüncü buton RawImage üstünde kaydedilen gifi gösterir.`**
 
-### **6) `Main camera üzerine gelerek Video Player altında render mode yi render Texture ye alıyoruz ve altına bizim yeni oluşturduğumuz render textureyi veriyoruz`**
-![alt text](https://github.com/berkcancabuk/In-Game-Recordering/blob/main/5.png)
-
-### **7) `Oyunu başlatıp buton üzerine tıkladığımızda hem video klibimizi çekicektir hemde videoyu belirlediğimiz RawImage kısmında oynatacaktır. RawImage boyutunu istediğiniz şekilde ayarlayabilirsiniz`**
+### **7) ``**
